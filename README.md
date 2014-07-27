@@ -29,15 +29,13 @@ Course Project
 ###############################################################################
 # 31. Uses descriptive activity names to name the activities in the data set
 # 32. read activity labels
-# rename variables
-# merge activitylabels and X_tot for 
-# Delete obsolete objects
+# 33. rename variables
+# 34. merge activitylabels and X_tot for 
+# 35. Delete obsolete objects
 
 ###############################################################################
 # 41. Appropriately labels the data set with descriptive variable names. 
 # 42. Keep only letters in lowercase
-names(X_tot) <- gsub("-*\\(*\\)*\\,*", "", names(X_tot))
-names(X_tot) <- tolower(names(X_tot))
 
 ###############################################################################
 # 51. Creates a second, independent tidy data set with the average of each 
